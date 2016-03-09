@@ -8,7 +8,7 @@
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/person?zeroDateTimeBehavior=convertToNull"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
       <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
-      <property name="javax.persistence.jdbc.password" value="test"/>
+      <property name="javax.persistence.jdbc.password" value="password"/>
       <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
       <property name="eclipselink.canonicalmodel.subpackage" value="production"/>
       <property name="javax.persistence.sql-load-script-source" value="scripts/createPersons.sql"/>
@@ -24,7 +24,7 @@
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/persontest?zeroDateTimeBehavior=convertToNull"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
       <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
-      <property name="javax.persistence.jdbc.password" value="test"/>
+      <property name="javax.persistence.jdbc.password" value="password"/>
       <property name="javax.persistence.schema-generation.database.action" value="create"/>
       <property name="eclipselink.canonicalmodel.subpackage" value="test"/>
     </properties>
